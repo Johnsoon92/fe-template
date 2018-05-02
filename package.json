@@ -1,0 +1,44 @@
+{
+  "name": "fe-template",
+  "version": "1.0.0",
+  "description": "A front-end template using webpack and Vue",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnsoon92/fe-template.git"
+  },
+  "keywords": [
+    "webpack",
+    "vue"
+  ],
+  "author": "Sean John",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Johnsoon92/fe-template/issues"
+  },
+  "homepage": "https://github.com/Johnsoon92/fe-template#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "csv-loader": "^2.1.1",
+    "express": "^4.16.3",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "inline-source-map": "^0.6.2",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-dev-server": "^3.1.3",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
